@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+let ganhou = false
+let numerosorteado = Math.floor(Math.random() * 10) +1 //gerar um numero aleatorio
+let tentativas = 5
+
+
+
+while (!ganhou && tentativas > 0){
+    let palpite = parseInt(prompt("Qual é o seu palpite ?"))
+
+    if (numerosorteado == palpite) {
+        alert("Parabéns você acertou!")
+        ganhou = true
+       } else {
+            console.log("Você errou tente novamente")
+            tentativas --
+            alert(`Você tem mais, ${tentativas}, tentativas`)
+        
+        }
+    }
+            
+               
+            
+            
+    
+            
+        
+
+
+    </script>
+    
+</body>
+</html>
