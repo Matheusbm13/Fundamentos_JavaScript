@@ -1,0 +1,53 @@
+
+body {
+    background-color: rgb(99, 64, 64);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+    font-size: 12px;
+    background-color: grey;
+    
+    /*Largura*/
+    width: 50%;
+
+    /*Altura*/
+    height: 25px;
+
+    border: 10px solid #000000;
+
+    /* Definir todos os lado com uma única tag */
+    margin: 10px  5px 4px 2px;
+
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+strong{
+    background-color: orange;
+
+    /* Definir margem especifica */
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.sub {
+    text-align: left;
+    background-color: unset;
+    height: 30px;
+    border: none;
+}
+
+#mes {
+    background-color: blue;
+}
+
+img{
+    width: 500px;
+    height: 500x;
+}
+
